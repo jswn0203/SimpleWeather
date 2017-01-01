@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+<EditText
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/modelSize"
+    android:hint="输入你要添加的城市"
+    android:padding="10dp"
+    android:id="@+id/ed_city"
+    android:background="@drawable/ed_shape"/>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/bt_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_shape"
+        android:text="确定"
+        android:textSize="@dimen/modelSize"
+        android:textColor="@color/mani_white"/>
+</LinearLayout>
